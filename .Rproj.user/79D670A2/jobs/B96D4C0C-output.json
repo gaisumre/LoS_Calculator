@@ -1,8 +1,0 @@
-[1,"Installing 'ggridges' ...\n"]
-[2,"Installing package into ‘/Users/gaisumre/Library/R/arm64/4.5/library’\n(as ‘lib’ is unspecified)\n"]
-[2,"trying URL 'https://cran.rstudio.com/bin/macosx/big-sur-arm64/contrib/4.5/ggridges_0.5.7.tgz'\n"]
-[2,"Content type 'application/x-gzip' length 2254970 bytes (2.2 MB)\n===================================="]
-[2,"="]
-[1,"The downloaded binary packages are in\n"]
-[1,"\t/var/folders/85/df2bkb_s73jbhk_2yb3h3grc0000gn/T//RtmpgyRmgv/downloaded_packages\n"]
-[2,"=============\ndownloaded 2.2 MB\n\n\n\n✔ Package 'ggridges' successfully installed.\n"]
