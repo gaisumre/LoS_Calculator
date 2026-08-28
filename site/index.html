@@ -35,7 +35,7 @@
       const liveMessage = document.getElementById("live-message");
     
       let seconds = 0;
-      let countdown = 55;
+      let countdown = 35;
       let calculatorReady = false;
     
       function updateLoadingMessage() {
@@ -49,7 +49,7 @@
           return;
         }
     
-        if (countdown <= 15) {
+        if (countdown <= 5) {
           liveMessage.textContent =
             "This is taking longer than expected. Thanks for your patience.";
           return;
