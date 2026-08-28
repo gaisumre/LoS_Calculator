@@ -1,5 +1,3 @@
-library(tidyverse)
-library(ggridges)
 source("3.1-pred_los.R")
 source("3.2-server_core.R")
 source("3.3-server_ui_pages.R")
@@ -31,5 +29,13 @@ server <- function(input, output, session) {
     }
   })
 
+  observeEvent(
+    input$calculator_ready_listener,
+    {
+      session$sendCustomMessage("calculator-ready", list())
+    },
+    once = TRUE
+  )
+  
   server_core(input, output, session)
 }

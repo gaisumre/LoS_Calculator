@@ -1,7 +1,12 @@
 # install.packages("shinylive")
 
-shiny::runApp()
+# shiny::runApp()
 
-shinylive::export(getwd(), "site")
+# shinylive::export(
+#   getwd(),
+#   "site",
+#   template_dir = "template",
+#   template_params = list(title = "LoS Calculator in Aged Care")
+# )
 
-httpuv::runStaticServer("site")
+# httpuv::runStaticServer("site")

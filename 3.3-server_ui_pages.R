@@ -2,7 +2,7 @@ main_page <- function() {
   div(
     titlePanel("Welcome to the Residential Aged Care Length of Stay Calculator"),
     
-    h6("Version: 1.0.0"),
+    h6("Version: 1.0.1"),
     
     div(
       class = "main-page-content",
