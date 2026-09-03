@@ -105,7 +105,7 @@ facility_tab <- function() {
             for each resident profile. The vertical lines mark the 25th
             percentile, median and 75th percentile."
           ),
-          plotOutput("fac_ridge_plot", width = "100%", height = "600px"),
+          plotOutput("fac_ridge_plot", width = "100%", height = "500px"),
           tableOutput("fac_ridge_quartile_table")
         ),
         
