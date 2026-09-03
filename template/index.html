@@ -28,7 +28,21 @@
     
     <div
       id="live-message"
-      style="position:fixed;bottom:16px;right:16px;padding:10px 14px;background:#222;color:#fff;border-radius:8px;font-family:sans-serif;z-index:9999"
+      style="
+      position:fixed;
+      bottom:30%;
+      left:50%;
+      transform:translateX(-50%);
+      padding:18px 28px;
+      width:min(450px,60vw);
+      background:#f3f3f3;
+      color:#777777;
+      border-radius:12px;
+      font-family:sans-serif;
+      font-size:22px;
+      text-align:center;
+      z-index:9999;
+      "
     >
       Loading packages ...
     </div>
@@ -37,14 +51,10 @@
       const liveMessage = document.getElementById("live-message");
     
       let seconds = 0;
-      let countdown = 35;
+      let countdown = 30;
       let calculatorReady = false;
     
       function updateLoadingMessage() {
-        // if (calculatorReady) {
-        //   liveMessage.textContent = "Calculator is ready.";
-        //   return;
-        // }
     
         if (seconds < 5) {
           liveMessage.textContent = "Loading packages ...";
