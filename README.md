@@ -6,9 +6,9 @@
 
 ## Contributors
 
+- @ Kaihao Yi
 - @ Mengyi Xu
 - @ Gaoyun Yan
-- @ Kaihao Yi
 
 ## Updates
 
